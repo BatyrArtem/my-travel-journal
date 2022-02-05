@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    /* padding: 0px; */
+    font-family: Inter;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F55A5A;
+}
+
+.nav--logo {
+    max-width: 40px;
+    margin: 16px 7px;
+}
+
+.nav--paragraph {
+    margin: 0px;
+    color: #FFFFFF;
+    font-size: 14.4608px;
+    letter-spacing: -0.075em;
+    /* line-height: 18px; */
+    /* font-family: Inter; */
+}
+
+.place {
+    display: flex;
+    flex-direction: column;
+
+    padding: 44px 0px 0px 40px;
+}
+
+.place--imgAndSection{
+    display: flex;
+    flex-direction: row;
+}
+
+.place--image {
+    width: 125px;  
+    height: 168px;  
+}
+
+.place--section {
+    padding: 20px;
+    display: flex;          
+    flex-direction: column; 
+    margin: 0px;
+}
+
+.place--country {
+    
+    padding-right: 12px;
+    font-size: 10px;
+    color: #2B283A;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal; 
+    line-height: 150%;
+    letter-spacing: 0.17em;
+}
+
+.place--icon {
+    width: 10px; 
+    padding-right: 4px;
+    /* width: 100%; */
+}
+
+.place--ref {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    /* height: 13px; */
+    font-size: 10.24px;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.place--name {
+margin: 0px;
+width: 128px;
+height: 30px;
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 30px;
+color: #2B283A;
+}
+
+.place--date {
+margin: 17px 0px 0px 0px;
+width: 319px;
+height: 11px;
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 10.24px;
+line-height: 12px;
+color: #2B283A;
+}
+
+.place--description {
+    width: 326px;
+    height: 45px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283A;
+    max-width: 470px;
+}
+
+.place--line {
+    margin: 0px;
+    width: 478px;
+    border: 1px solid #F5F5F5;
+}
