@@ -7,6 +7,7 @@ export default function App() {
   
   const dataPlace = data.map(object => 
     <Place 
+      key={object.description}
       object={object}
     />)
 
