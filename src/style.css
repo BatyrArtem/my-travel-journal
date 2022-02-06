@@ -4,7 +4,6 @@
 
 body {
     margin: 0px;
-    /* padding: 0px; */
     font-family: Inter;
 }
 
@@ -32,8 +31,7 @@ nav {
 .place {
     display: flex;
     flex-direction: column;
-
-    padding: 44px 0px 0px 40px;
+    padding: 20px 0px 0px 0px;
 }
 
 .place--imgAndSection{
@@ -83,7 +81,7 @@ nav {
 
 .place--name {
 margin: 0px;
-width: 128px;
+width: 326px;
 height: 30px;
 font-family: Inter;
 font-style: normal;
@@ -121,4 +119,8 @@ color: #2B283A;
     margin: 0px;
     width: 478px;
     border: 1px solid #F5F5F5;
+}
+
+.place--list {
+   margin: 20px 40px;
 }
